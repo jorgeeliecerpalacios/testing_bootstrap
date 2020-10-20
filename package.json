@@ -1,0 +1,15 @@
+{
+  "name": "otro-proyecto",
+  "version": "1.0.0",
+  "description": "nuestro primer proyecto nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/JEPB1/curso/src/master/"
+  },
+  "author": "Jorge Palacios",
+  "license": "ISC"
+}
