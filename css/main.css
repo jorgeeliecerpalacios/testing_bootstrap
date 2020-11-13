@@ -1,0 +1,21 @@
+.jumbotron {
+    background-color: darkturquoise;
+    color: black;
+}
+
+footer {
+    background-color: yellow;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.otro-preyecto {
+    flex: 0 150px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+}
+
+.btn-reserve {
+    width: 100%;
+}
