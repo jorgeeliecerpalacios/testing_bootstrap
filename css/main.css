@@ -1,24 +1,24 @@
 .jumbotron {
-    background-color: darkturquoise;
+    background-color: rgb(88, 86, 86);
     color: black;
     margin-top: 50px;
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(88, 86, 86);
     padding: 10px 10px 0 10px;
     margin-bottom: 0px;
     margin-top: 10px;
 }
 
 .otro-preyecto {
-    flex: 0 150px;
-    padding: 2px 5px 2px 5px;
+    flex: 1 200px;
     margin-top: 10px;
 }
 
 .btn-reserve {
     width: 100%;
+    border-radius: 0px;
 }
 
 .footer-addres-icon {
