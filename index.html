@@ -79,7 +79,7 @@
             <div class="otro-preyecto card card-carro d-flex flex-column justify-content-between mr-2">
                 <img class="card-img-top" src="imagens/chevrolet tracker.jpg" alt="reponsive image">
                 <div class="card-body">
-                    <h5 class="card-title">CHEVROLET TRACKER</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="solo se encuemtra en dos colores blanco o negro">CHEVROLET TRACKER</h5>
                     <h6 class="card-subtitle text-muted">E.E.U.U</h6>
                     <p>Conoce la Tracker Turbo con Alerta de Colisión Frontal y Asistencia de Frenado Automático. Con 6 Airbags, Cargador Inalámbrico, Conexión Wifi, Sunroof Panorámico y Mucho Más. Diseño Renovado. Motor1.2L Turbo. Potencia y Seguridad.
                         Tecnología y confort.</p>
@@ -87,7 +87,7 @@
                     <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
                 </div>
                 <div>
-                    <button class="btn btn-primary btn-reserve"><span class="oi oi-plus button-compra"></span>COMPRAR</button>
+                    <button class="btn btn-primary btn-reserve" title="promociones" data-toggle="popover" data-content="consulta las promociones"><span class="oi oi-plus button-compra"></span>COMPRAR</button>
                 </div>
 
 
@@ -236,6 +236,14 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+                    $("[data-toggle='tooltip']).tooltip();
+                        $("[data-toggle='popover']).popover();
+                        });
+    </script>
+
 </body>
 
 </html>
