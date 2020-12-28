@@ -1,0 +1,39 @@
+$grey: #6b6b6b;
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    background-color: $grey;
+    color: black;
+    @include margenes(50px, 15px);
+}
+
+footer {
+    background-color: $grey;
+    padding: 10px 10px 0 10px;
+    @include margenes(10px, 0px);
+}
+
+.otro-preyecto {
+    flex: 1 200px;
+    @include margenes(10px, 0px);
+}
+
+.btn-reserve {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.footer-addres-icon {
+    padding-right: 10PX;
+}
+
+.button-compra {
+    padding-right: 5px;
+}
+
+.tab-content {
+    padding-top: 10px;
+}
