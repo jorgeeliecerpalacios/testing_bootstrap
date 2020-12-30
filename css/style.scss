@@ -1,17 +1,17 @@
-$grey: #6b6b6b;
+$gray: #6b6b6b;
 @mixin margenes($top, $bottom) {
     margin-top: $top;
     margin-bottom: $bottom;
 }
 
 .jumbotron {
-    background-color: $grey;
+    background-color: $gray;
     color: black;
     @include margenes(50px, 15px);
 }
 
 footer {
-    background-color: $grey;
+    background-color: $gray;
     padding: 10px 10px 0 10px;
     @include margenes(10px, 0px);
 }
